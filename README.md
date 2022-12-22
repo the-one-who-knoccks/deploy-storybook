@@ -21,3 +21,18 @@
 * Radix
 
 
+## Para executar o projeto:
+
+Clone o projeto e acesse a pasta 05-design-system
+```bash
+$ git clone https://github.com/the-one-who-knoccks/deploy-storybook.git
+$ cd deploy-storybook
+```
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ npm run dev
+
