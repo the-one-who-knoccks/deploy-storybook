@@ -22,7 +22,7 @@ jobs:
       - run: npm run build
         env:
           TURBO_TOKEN: NUQomUGV9FlhjX6MPzk1QVC4
-          TURO_TEAM: towk-ignite-team
+          TURBO_TEAM: towk-ignite-team
 
       - name: Deploy storybook
         working-directory: ./packages/docs
