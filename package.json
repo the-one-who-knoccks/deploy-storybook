@@ -9,11 +9,10 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "turbo run build --filter=packages/docs && changeset publish"
-
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "@storybook/storybook-deployer": "^2.8.16",
-    "turbo": "^1.6.3"
+    "turbo": "^1.5.5"
   }
 }
