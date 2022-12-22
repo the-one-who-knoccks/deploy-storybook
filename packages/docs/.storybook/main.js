@@ -13,7 +13,7 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  viteFial: (config, { configType }) => {
+  viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
       config.base = "/deploy-storybook/";
     }
